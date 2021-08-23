@@ -4,7 +4,7 @@ const app = express(); // const storege your express
 
 
 app.get("/",function(req, res){ // create roads by your app.
-    res.send("Welcome in my app");
+    res.sendFile(__dirname + "/html/index.html");// '__dirname' to infor by my file here in the mesmo diretory "raiz".
 })
 
 app.get("/about", function(req, res){

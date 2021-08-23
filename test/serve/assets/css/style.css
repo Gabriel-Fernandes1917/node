@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+html{
+    --header: #696969;
+    --LoginButtom: #D3D3D3;
+}
+
+.header{
+    background-color: var(--header);
+    padding: 7px;
+    display: flex;
+}
+
+.LoginButtom{
+    margin-left: 75%;
+    margin-top: 10px;
+    background-color: var(--LoginButtom);
+}
