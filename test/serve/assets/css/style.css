@@ -2,19 +2,51 @@
     margin: 0;
 }
 
+body{
+    background-color: var(--BackgroundSite);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 html{
     --header: #696969;
     --LoginButtom: #D3D3D3;
+    --BackgroundSite: #4F4F4F;
 }
 
 .header{
     background-color: var(--header);
     padding: 7px;
     display: flex;
+    align-items: center;
 }
 
 .LoginButtom{
     margin-left: 75%;
-    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
     background-color: var(--LoginButtom);
+    cursor: pointer;
+}
+
+.LoginButtom:hover{
+    filter: brightness(1.2);/*brightness the button*/
+}
+
+.field{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.welcome{
+    display: flex;
+}
+
+.MyFace{
+    width: 15rem;
+    height: 20rem;
+    margin-left: 10px;
 }
