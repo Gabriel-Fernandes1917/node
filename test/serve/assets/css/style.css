@@ -1,9 +1,19 @@
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: var(--BackgroundSite);
+}
+
+main{
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
 }
 
 a{
@@ -15,6 +25,8 @@ html{
     --header: #696969;
     --LoginButtom: #D3D3D3;
     --BackgroundSite: #4F4F4F;
+    --opbg: #BEBEBE;
+    --opbglight: #D3D3D3;
 }
 
 .header{
@@ -37,9 +49,31 @@ html{
     filter: brightness(1.2);/*brightness the button*/
 }
 
+.options{
+    background-color: var(--header);
+    padding-bottom: 7px;
+}
+
+.opul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+}
+
+.opli{
+    padding: 5px;
+    background-color: var(--opbg);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.opli:hover{
+    background-color: var(--opbglight);
+    cursor: pointer;
+}
+
 .field{
-    padding-left: 25%;
-    padding-right: 25%;
+    max-width: 80%;
 }
 
 .welcome{
@@ -47,7 +81,11 @@ html{
 }
 
 .MyFace{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     margin-left: 10px;
+}
+
+.news{
+    
 }
