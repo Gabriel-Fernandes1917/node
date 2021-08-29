@@ -5,11 +5,32 @@
 
 body{
     background-color: var(--BackgroundSite);
+    /*background-image: url(../img/dev-carreira.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; /*no repeat the bg picture */
+}
+
+footer{
+    background-color: var(--header);
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
 }
 
 main{
-    align-items: center;
-    text-align: center;
+    /*align-items: center;
+    text-align: center;*/
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
 }
 
 li{
@@ -74,6 +95,8 @@ html{
 
 .field{
     max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .welcome{
@@ -87,5 +110,36 @@ html{
 }
 
 .news{
+    text-align: center;
+    align-items: center;
+}
+
+.slideshow{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgNews{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50px;
+}
+
+
+
+
+/*.news>ul{
+    display: flex;
+}*/
+/*Matters*/
+.matter{
+    text-align: center;
+    align-content: center;
+}
+
+.opmatters{
+    display: flex;
     
 }
+
