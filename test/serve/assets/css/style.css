@@ -4,7 +4,7 @@
 }
 
 body{
-    /*background-color: var(--BackgroundSite);
+    background-color: var(--BackgroundSite);
     /*background-image: url(../img/Cover.png);
     background-size: 100%;
     background-repeat: no-repeat; /*no repeat the bg picture */
@@ -38,10 +38,19 @@ footer p, img{
     margin: 1%;
 }
 
+
 main{
-    /*align-items: center;
-    text-align: center;*/
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
     color: white;
+
+}
+
+main p{
+    font-size: 24px;
     
 }
 
@@ -121,9 +130,6 @@ html{
 
 .welcome{
     display: flex;
-    background-image: url(../img/Cover.png);
-    background-size: 100%;
-    background-repeat: no-repeat; /*no repeat the bg picture */
 }
 
 .TextWelcome{
@@ -145,6 +151,9 @@ html{
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+    /*background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;*/
 }
 
 .imgNews{
@@ -171,5 +180,9 @@ html{
 .opmatters{
     display: flex;
     
+}
+
+.turbnail{
+    ma
 }
 
