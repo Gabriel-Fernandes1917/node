@@ -9,6 +9,11 @@ app.get("/home", function(req, res){ //road
     
 })
 
+app.get("/logicalport", function(req, res){ //road
+    res.sendFile(__dirname+"/html/LogicalPorts.html");
+    
+})
+
 app.get("/home/:name", function(req, res){
     res.send(" <h1> Welcome my site "+req.params.name+"</h1>");
 })

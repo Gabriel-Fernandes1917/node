@@ -54,6 +54,17 @@ main p{
     
 }
 
+table{
+    border: 10px;
+    border-color: white;
+    background-color: gray;
+    color: black;
+}
+
+table td{
+    padding: 10px;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -182,7 +193,13 @@ html{
     
 }
 
-.turbnail{
-    ma
+.opmatters li{
+    display: contents;
+    margin: 1%;
+}
+
+.turbnail img{
+    max-width: 80%;
+    max-height: 80%;
 }
 
