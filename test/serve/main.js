@@ -10,7 +10,7 @@ app.get("/home", function(req, res){ //road
 })
 
 app.get("/logicalport", function(req, res){ //road
-    res.sendFile(__dirname+"/html/LogicalPorts.html");
+    res.redirect(__dirname+"/html/LogicalPorts.html");
     
 })
 
